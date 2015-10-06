@@ -27,6 +27,8 @@
   (add-to-list 'load-path settings-dir)
   (add-to-list 'load-path site-lisp-dir))
 
+(require 'appearance)
+
 ;; setup package manager
 (require 'setup-package)
 
