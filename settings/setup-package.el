@@ -13,7 +13,8 @@
   (mapcar (lambda (it)
 	    (when (not (package-installed-p it))
 	      (package-install it))
-	    (delete-other-windows))
+	    (delete-other-windows)
+	    it)
 	  packages))
 
 

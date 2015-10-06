@@ -8,7 +8,7 @@
     ("9527feeeec43970b1d725bdc04e97eb2b03b15be982ac50089ad223d3c6f2920" default)))
  '(package-selected-packages
    (quote
-    (exec-path-from-shell dockerfile-mode restclient smartparens yasnippet dired-details flycheck fill-column-indicator paredit magit))))
+    (ido-ubiquitous flx-ido flx ido-at-point ido-vertical-mode smex exec-path-from-shell dockerfile-mode restclient smartparens yasnippet dired-details flycheck fill-column-indicator paredit magit))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

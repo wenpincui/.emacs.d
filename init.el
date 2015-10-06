@@ -43,6 +43,13 @@
      smartparens
      restclient
      dockerfile-mode
+     dash
+     ido-vertical-mode
+     ido-at-point
+     ido-ubiquitous
+     flx
+     flx-ido
+     smex
      )))
 
 (condition-case nil
@@ -54,6 +61,16 @@
 (when *is-mac*
   (require-package 'exec-path-from-shell)
   (exec-path-from-shell-initialize))
+
+(eval-after-load 'ido '(require 'setup-ido))
+(eval-after-load 'dash '(dash-enable-font-lock))
+(eval-after-load 'magit '(require 'setup-magit))
+
+;; Smart M-x is smart
+(require 'smex)
+(smex-initialize)
+
+(require 'key-bindings)
 
 ;; Misc
 (when *is-mac* (require 'mac))
