@@ -50,6 +50,8 @@
      flx
      flx-ido
      smex
+     undo-tree
+     smooth-scrolling
      )))
 
 (condition-case nil
@@ -62,6 +64,7 @@
   (require-package 'exec-path-from-shell)
   (exec-path-from-shell-initialize))
 
+(require 'sane-defaults)
 (eval-after-load 'ido '(require 'setup-ido))
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
