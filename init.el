@@ -65,6 +65,7 @@
   (exec-path-from-shell-initialize))
 
 (require 'sane-defaults)
+(require 'setup-slime)
 (eval-after-load 'ido '(require 'setup-ido))
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
