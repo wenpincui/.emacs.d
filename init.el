@@ -66,6 +66,7 @@
 
 (require 'sane-defaults)
 (require 'setup-slime)
+(require 'setup-paredit)
 (eval-after-load 'ido '(require 'setup-ido))
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
