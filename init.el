@@ -52,6 +52,7 @@
      smex
      undo-tree
      smooth-scrolling
+     ace-jump-mode
      )))
 
 (condition-case nil
