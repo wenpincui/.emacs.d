@@ -66,6 +66,10 @@
 ;; Never insert tabs
 (set-default 'indent-tabs-mode nil)
 
+;; first indent, if already indented then try to auto complete.
+(setq tab-always-indent 'complete)
+(add-to-list 'completion-styles 'initials t)
+
 ;; Show me empty lines after buffer end
 (set-default 'indicate-empty-lines t)
 
