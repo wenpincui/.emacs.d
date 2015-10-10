@@ -1,6 +1,6 @@
-* wenpin's Emacs dot file
-
 [[https://travis-ci.org/wenpincui/.emacs.d.svg?branch%3Dmaster][https://travis-ci.org/wenpincui/.emacs.d.svg?branch=master]]
+
+* wenpin's Emacs dot file
 
   This is my .emacs file, based on [[https://github.com/magnars/.emacs.d][magnars' config]], with heavy customization to
   fit my need. Btw, this is his [[http://emacsrocks.com/][emacsrocks site]], very cool.

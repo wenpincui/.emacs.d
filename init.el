@@ -44,8 +44,6 @@
      restclient
      dockerfile-mode
      dash
-     flx
-     smex
      undo-tree
      smooth-scrolling
      ace-jump-mode
