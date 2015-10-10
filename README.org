@@ -3,7 +3,7 @@
   This is my .emacs file, based on [[https://github.com/magnars/.emacs.d][magnars' config]], with heavy customization to
   fit my need. Btw, this is his [[http://emacsrocks.com/][emacsrocks site]], very cool.
 
-  The dot files are working in progress, there is some 3rd party emacs
+  The dot files are working in progress, this is a list of some 3rd party emacs
   extensions I currently used.
 
   -  magit
