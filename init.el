@@ -74,10 +74,6 @@
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
 
-;; Smart M-x is smart
-(require 'smex)
-(smex-initialize)
-
 (require 'key-bindings)
 
 ;; Misc
