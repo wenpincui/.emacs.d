@@ -44,17 +44,16 @@
      restclient
      dockerfile-mode
      dash
-     ido-vertical-mode
-     ido-at-point
-     ido-ubiquitous
      flx
-     flx-ido
      smex
      undo-tree
      smooth-scrolling
      ace-jump-mode
      auto-complete
      ac-slime
+     helm
+     projectile
+     helm-projectile
      )))
 
 (condition-case nil
@@ -71,7 +70,8 @@
 (require 'setup-slime)
 (require 'setup-paredit)
 (require 'setup-auto-complete)
-(eval-after-load 'ido '(require 'setup-ido))
+(require 'setup-projectile)
+(require 'setup-helm)
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
 
