@@ -24,7 +24,7 @@ install:
     fi
 
 script:
-  lsb_release -a && EMACS=$EMACS ./test-startup.sh
+  EMACS=$EMACS ./test-startup.sh
 
 notifications:
   email: false
