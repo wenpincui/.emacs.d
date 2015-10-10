@@ -6,4 +6,11 @@
           (lambda ()
             (paredit-mode 1)))
 
+(eval-after-load 'slime-repl
+  '(progn
+    (define-key slime-repl-mode-map (kbd "C-c l")
+      'slime-documentation)
+    (define-key slime-mode-map (kbd "C-c l")
+      'slime-documentation)))
+
 (provide 'setup-slime)
