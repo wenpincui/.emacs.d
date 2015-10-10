@@ -72,6 +72,7 @@
 (require 'setup-auto-complete)
 (require 'setup-projectile)
 (require 'setup-helm)
+
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
 
