@@ -53,6 +53,8 @@
      undo-tree
      smooth-scrolling
      ace-jump-mode
+     auto-complete
+     ac-slime
      )))
 
 (condition-case nil
@@ -68,6 +70,7 @@
 (require 'sane-defaults)
 (require 'setup-slime)
 (require 'setup-paredit)
+(require 'setup-auto-complete)
 (eval-after-load 'ido '(require 'setup-ido))
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
