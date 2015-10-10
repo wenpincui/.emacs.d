@@ -1,4 +1,5 @@
-(load (expand-file-name "~/.roswell/impls/ALL/ALL/quicklisp/slime-helper.el"))
+(let ((file (expand-file-name "~/.roswell/impls/ALL/ALL/quicklisp/slime-helper.el")))
+  (or (file-exists-p file) (load file)))
 
   ;; Replace "sbcl" with the path to your implementation
 (if (executable-find "ros")
