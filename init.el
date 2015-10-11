@@ -68,6 +68,7 @@
   (exec-path-from-shell-initialize))
 
 (require 'sane-defaults)
+(require 'mode-mapping)
 (require 'setup-slime)
 (require 'setup-paredit)
 (require 'setup-projectile)
