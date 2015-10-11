@@ -19,7 +19,12 @@
   (interactive)
   (load-theme 'default-black))
 
-(use-default-theme)
+(defun use-molokai-theme ()
+  (interactive)
+  (setq molokai-theme-kit t)
+  (load-theme 'molokai))
+
+(use-molokai-theme)
 
 ;; org-mode colors
 (setq org-todo-keyword-faces
