@@ -18,4 +18,7 @@
 
 (global-set-key (kbd "C-c h o") 'helm-occur)
 
+;; bing dict
+(global-set-key (kbd "C-c d") 'bing-dict-brief)
+
 (provide 'key-bindings)

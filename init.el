@@ -52,6 +52,7 @@
      helm
      projectile
      helm-projectile
+     bing-dict
      )))
 
 (condition-case nil
@@ -73,6 +74,8 @@
 
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
+
+(require 'bing-dict)
 
 (require 'key-bindings)
 
