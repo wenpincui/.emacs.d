@@ -17,4 +17,6 @@
     (define-key slime-mode-map (kbd "C-c l")
       'slime-documentation)))
 
+(slime-setup '(slime-company))
+
 (provide 'setup-slime)

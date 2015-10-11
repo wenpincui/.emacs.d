@@ -47,12 +47,14 @@
      undo-tree
      smooth-scrolling
      ace-jump-mode
-     auto-complete
-     ac-slime
      helm
      projectile
      helm-projectile
      bing-dict
+     company
+     slime-company
+     helm-company
+     company-restclient
      )))
 
 (condition-case nil
@@ -68,9 +70,9 @@
 (require 'sane-defaults)
 (require 'setup-slime)
 (require 'setup-paredit)
-(require 'setup-auto-complete)
 (require 'setup-projectile)
 (require 'setup-helm)
+(require 'setup-company)
 
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
