@@ -55,6 +55,7 @@
      slime-company
      helm-company
      company-restclient
+     htmlize
      )))
 
 (condition-case nil

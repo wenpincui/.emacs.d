@@ -21,4 +21,9 @@
 ;; bing dict
 (global-set-key (kbd "C-c d") 'bing-dict-brief)
 
+(define-key global-map (kbd "C-c l") 'org-store-link)
+(define-key global-map (kbd "C-c a") 'org-agenda)
+(define-key global-map (kbd "C-c c") 'org-capture)
+
+
 (provide 'key-bindings)
