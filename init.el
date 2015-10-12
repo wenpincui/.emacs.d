@@ -56,6 +56,8 @@
      helm-company
      company-restclient
      htmlize
+     groovy-mode
+     gradle-mode
      )))
 
 (condition-case nil
@@ -75,11 +77,15 @@
 (require 'setup-projectile)
 (require 'setup-helm)
 (require 'setup-company)
+(require 'setup-org)
+(require 'setup-gradle-mode)
 
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
 
+
 (require 'bing-dict)
+(require 'gradle-mode)
 
 (require 'key-bindings)
 
