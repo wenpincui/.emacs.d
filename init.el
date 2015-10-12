@@ -58,6 +58,7 @@
      htmlize
      groovy-mode
      gradle-mode
+     expand-region
      )))
 
 (condition-case nil
@@ -85,7 +86,7 @@
 
 
 (require 'bing-dict)
-(require 'gradle-mode)
+(require 'expand-region)
 
 (require 'key-bindings)
 
