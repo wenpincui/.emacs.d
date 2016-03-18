@@ -60,6 +60,7 @@
      gradle-mode
      expand-region
      elpy
+     spaceline
      )))
 
 (condition-case nil

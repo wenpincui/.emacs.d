@@ -24,7 +24,12 @@
   (setq molokai-theme-kit t)
   (load-theme 'molokai))
 
+(fringe-mode 4)
+(setq frame-resize-pixelwise t)
 (use-molokai-theme)
+
+(require 'spaceline-config)
+(spaceline-spacemacs-theme)
 
 ;; org-mode colors
 (setq org-todo-keyword-faces
