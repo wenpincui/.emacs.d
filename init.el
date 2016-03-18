@@ -27,7 +27,6 @@
   (add-to-list 'load-path settings-dir)
   (add-to-list 'load-path site-lisp-dir))
 
-(require 'appearance)
 
 ;; setup package manager
 (require 'setup-package)
@@ -73,6 +72,7 @@
   (require-package 'exec-path-from-shell)
   (exec-path-from-shell-initialize))
 
+(require 'appearance)
 (require 'sane-defaults)
 (require 'mode-mapping)
 (require 'setup-slime)
