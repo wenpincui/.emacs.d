@@ -59,6 +59,7 @@
      groovy-mode
      gradle-mode
      expand-region
+     elpy
      )))
 
 (condition-case nil
@@ -80,6 +81,7 @@
 (require 'setup-company)
 (require 'setup-org)
 (require 'setup-gradle-mode)
+(require 'setup-python-mode)
 
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
