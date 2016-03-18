@@ -60,6 +60,7 @@
      expand-region
      elpy
      spaceline
+     git-gutter
      )))
 
 (condition-case nil
@@ -83,6 +84,7 @@
 (require 'setup-org)
 (require 'setup-gradle-mode)
 (require 'setup-python-mode)
+(require 'setup-git-gutter)
 
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
