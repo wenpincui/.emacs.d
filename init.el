@@ -85,6 +85,7 @@
 (require 'setup-gradle-mode)
 (require 'setup-python-mode)
 (require 'setup-git-gutter)
+(require 'setup-yasnippet)
 
 (eval-after-load 'dash '(dash-enable-font-lock))
 (eval-after-load 'magit '(require 'setup-magit))
