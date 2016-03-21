@@ -35,7 +35,6 @@
   (packages-install
    '(magit
      paredit
-     fill-column-indicator
      flycheck
      dired-details
      yasnippet
